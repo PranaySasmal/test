@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/test.css">
+</head>
+
+<body>
+    <form action="#" id="form">
+        <h2>
+            Add Employee
+        </h2>
+        <label for="nme">Name :</label>
+        <input type="text" id="nme"> <br>
+        <p id="namemessage"></p> <br>
+        <label for="age">Age :</label>
+        <input type="number" id="age"> <br>
+        <p id="agemessage"></p> <br>
+        <label for="gender"> Gender:</label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+        <label for="salary">Salary :</label>
+        <input type="number" id="salary"> <br>
+        <p id="salarymessage"></p> <br>
+        <br>
+        <button id="submit" onclick="sub()">submit</button>
+    </form>
+    <table>
+        <caption>Employee List</caption>
+        <thead>
+            <tr>
+                <th id="tbserial">Sl.</th>
+                <th id="tbname">Name</th>
+                <th id="tbage">Age</th>
+                <th id="tbgender">Gender</th>
+                <th id="tbgrade">Grade</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="../js/test.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#">
+        <label for="length">Length :</label>
+        <input type="number" id="elemCount"><br>
+        <p id ="messagge"></p>
+        <button onclick="createArray()" type="button">Submit</button>
+        <button onclick="sumArray()" type="button">Sum</button>
+    </form>
+    <div>
+        Arr 1<div id="array1"></div>
+        <br>
+        Arr 2<div id="array2"></div>
+        <br>
+        Result : 
+        <div id="result"></div>
+    </div>
+    <script src="../js/test3.js"></script>
+</body>
+
+</html> -->
